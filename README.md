@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+🧭 Find a Coach – Vue 3 Web App
+Find a Coach is a modern, responsive web application built with Vue 3 to help users easily search, view, and connect with qualified coaches or mentors based on location, skills, and availability.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+🚀 Features
+🔍 Search Functionality: Real-time filtering of coaches by name, skill, or location
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+🧑‍🏫 Coach Profiles: Detailed profile pages including expertise, experience, and contact options
+
+💬 Contact Options: Direct contact forms or messaging (can be extended with real-time chat)
+
+🗺️ Location-Based Filtering: Users can find nearby coaches
+
+📱 Responsive Design: Fully mobile-friendly using Tailwind CSS
+
+⚡ Built with Vue 3, Vite, and Quasar UI (if applicable)
+
+🛠️ Tech Stack
+Frontend Framework: Vue 3 (Composition API)
+
+Routing: Vue Router
+
+State Management: vuex
+
+Bundler: Vite
+
