@@ -1,14 +1,26 @@
 <template>
-    <h1 v-if="hascoaches">
-        <ul v-for="coaches in filtercoaches" :key="coaches.id">
-           {{ coaches.firstName }}
-        </ul>
-    </h1>
-    <h2 v-else>No coaches Found</h2>
+    <base-card>
+    <ul v-if="hascoaches">
+        <CoacheItem
+        v-for="coach in filtercoaches"
+        :key="coach.id"
+        :first-name="coach.firstName"
+        :last-name="coach.lastName"
+        :id="coach.id"
+        :areas="coach.areas"
+        :rate="coach.rate"
+        />
+    </ul>
+    <h2 v-else>No coaches found</h2>
+    </base-card>
 </template>
 
 <script>
-  export default {
+import CoacheItem from '../../components/coaches/CoacheItem.vue';
+  export default {  
+    components : {
+        CoacheItem 
+      },
     computed : {
         filtercoaches(){
             return this.$store.getters['coaches/coaches']

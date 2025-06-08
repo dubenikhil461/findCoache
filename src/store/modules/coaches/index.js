@@ -15,7 +15,7 @@ export default{
               lastName: 'Johnson',
               description: 'Passionate about teaching modern frontend technologies.',
               areas: ['frontend', 'backend'],
-              hourlyRate: '50hr'
+              rate: 50
             },
             {
               id: 'c2',
@@ -23,7 +23,7 @@ export default{
               lastName: 'Martinez',
               description: 'Experienced data scientist who loves sharing knowledge.',
               areas: ['datascience', 'backend'],
-              hourlyRate:'65hr'
+              rate:65
             }
      ]
     }

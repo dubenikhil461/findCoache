@@ -31,6 +31,7 @@ const routes = [
   {
     path: '/coaches/:id',
     name: 'CoachDetails',
+    props : true,
     component: CoachDetails,
     meta: { title: 'Coach Details' },
     children: [
